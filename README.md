@@ -1,5 +1,5 @@
 # Collecte_auto_webscraping
-## Webscraping : Qu’est-ce que c’est ? [Cours]
+## Webscraping : Qu’est-ce que c’est ?
 Le webscraping désigne les techniques d’extraction du contenu des sites internet. C’est une pratique très utile
 pour toute personne souhaitant travailler sur des informations disponibles en ligne, mais pas nécessairement
 accessible par une API.

@@ -5,16 +5,13 @@ pour toute personne souhaitant travailler sur des informations disponibles en li
 accessible par une API.
 L’idée générale va être de charger le code source de la page web puis d’aller chercher dans celui-ci les informations
 souhaitées.
-
 Commençons par un rappel rapide de la structure d’un site web : Un site Web est un ensemble de pages
 codées en HTML qui permet de décrire à la fois le contenu et la forme d’une page Web.
-
 Sur une page web, vous trouverez toujours à coup sûr des éléments comme <head>, <title>, etc. Il s’agit des
 codes qui vous permettent de structurer le contenu d’une page HTML et qui s’appellent des balises. Citons,
 par exemple, les balises <p>, <h1>, <h2>, <h3>, <strong> ou <em>. Le symbole < > est une balise :
 il sert à indiquer le début d’une partie. Le symbole </ > indique la fin de cette partie. La plupart des balises
 vont par paires, avec une balise ouvrante et une balise fermante (par exemple <p> et </p>).
-
 Pour récupérer correctement les informations d’un site internet, il faut pouvoir comprendre sa structure et
 donc son code HTML. Les fonctions python qui servent au scraping sont principalement construites pour vous
 permettre de naviguer entre les balises.
@@ -26,14 +23,11 @@ de la page web.
 La différence principale est qu’à ce moment-la, plutôt que de récupérer des données pré-formatées dans un
 format json, xml ou csv, on récupère le code brut de la page web, qu’il va falloir explorer pour obtenir les
 données voulues.
-
 Pour cela, on va se servir de la bibliothèque BeautifulSoup. (D’autres existent, notamment Selenium, qui vous
 permettra de faire du webscrapping sur les parties dynamiques des pages, sur lequel on reviendra plus bas).
 Son rôle va être de structurer la donnée récupérée afin d’accéder facilement à son contenu en filtrant sur les
 
-
-
-## Les Bonnes Pratiques de Webscraping [Cours]
+## Les Bonnes Pratiques de Webscraping
 Le webscraping est une activité qui peut causer un certain nombre de problèmes aux sites ciblés, ce qui en
 fait quelque chose d’assez mal vu en général. Pour faire du webscraping de manière polie et raisonnable, il y
 a quelques règles à suivre :
@@ -52,7 +46,7 @@ et indiquant ce qu’il est possible de faire sur le site. Initialement créé p
 il est aussi utilisé pour indiquer les limites du webscraping.
 
 
-## Webscraper des pages dynamiques [Cours]
+## Webscraper des pages dynamiques
 Nous avons précédemment vu comment récupérer les données de pages statiques ( où l’ensemble des données
 est présent dans le code html de la page à étudier). Nous allons maintenant voir comment récupérer les
 données pages dynamiques, contenant notamment du javascript. Nous allons pour cela utiliser la bibliothèque

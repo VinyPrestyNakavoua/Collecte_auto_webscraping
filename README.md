@@ -1,63 +1,100 @@
 # Collecte_auto_webscraping
+
 ## Webscraping : Qu’est-ce que c’est ?
-Le webscraping désigne les techniques d’extraction du contenu des sites internet. C’est une pratique très utile
-pour toute personne souhaitant travailler sur des informations disponibles en ligne, mais pas nécessairement
-accessible par une API.
-L’idée générale va être de charger le code source de la page web puis d’aller chercher dans celui-ci les informations
-souhaitées.
-Commençons par un rappel rapide de la structure d’un site web : Un site Web est un ensemble de pages
-codées en HTML qui permet de décrire à la fois le contenu et la forme d’une page Web.
-Sur une page web, vous trouverez toujours à coup sûr des éléments comme <head>, <title>, etc. Il s’agit des
-codes qui vous permettent de structurer le contenu d’une page HTML et qui s’appellent des balises. Citons,
-par exemple, les balises <p>, <h1>, <h2>, <h3>, <strong> ou <em>. Le symbole < > est une balise :
-il sert à indiquer le début d’une partie. Le symbole </ > indique la fin de cette partie. La plupart des balises
-vont par paires, avec une balise ouvrante et une balise fermante (par exemple <p> et </p>).
-Pour récupérer correctement les informations d’un site internet, il faut pouvoir comprendre sa structure et
-donc son code HTML. Les fonctions python qui servent au scraping sont principalement construites pour vous
-permettre de naviguer entre les balises.
 
-## Webscraping en python
-De manière assez similaire à l’utilisation d’API, faire du webscrapping en python commence par faire la requête
-de la page web.
+Le webscraping désigne les techniques d’extraction de contenu des sites internet. C’est une pratique très utile pour toute personne souhaitant travailler sur des informations disponibles en ligne mais pas nécessairement accessibles via une API.
 
-La différence principale est qu’à ce moment-la, plutôt que de récupérer des données pré-formatées dans un
-format json, xml ou csv, on récupère le code brut de la page web, qu’il va falloir explorer pour obtenir les
-données voulues.
-Pour cela, on va se servir de la bibliothèque BeautifulSoup. (D’autres existent, notamment Selenium, qui vous
-permettra de faire du webscrapping sur les parties dynamiques des pages, sur lequel on reviendra plus bas).
-Son rôle va être de structurer la donnée récupérée afin d’accéder facilement à son contenu en filtrant sur les
+L’idée générale est de charger le code source d’une page web, puis d’y extraire les informations souhaitées.
 
-## Les Bonnes Pratiques de Webscraping
-Le webscraping est une activité qui peut causer un certain nombre de problèmes aux sites ciblés, ce qui en
-fait quelque chose d’assez mal vu en général. Pour faire du webscraping de manière polie et raisonnable, il y
-a quelques règles à suivre :
-— Comme pour les API, assurez-vous de limiter vos chargements de pages au strict nécessaire.
-— Insérez des pauses entre les différents appels pour ne pas surcharger les serveurs ( En python, vous
-pourrez utilisez la méthode sleep de la bibliothèque time.
-— Souvenez-vous qu’il est illégal de webscraper des données considérées comme personnelles, même si
-elles sont publiées sur un site.
-— Respectez les souhaits des webmaster du site concernant ce qui est, ou non, webscrapable sur le site
-en question.
+### Structure d’un site web
 
-Pour ce dernier point, vous pourrez par exemple vérifier ce qui est indiqué sur le robots.txt du site web.
+Un site web est un ensemble de pages codées en **HTML**, un langage permettant de décrire à la fois le contenu et la structure d’une page web.
 
-robots.txt est un fichier disponible normalement sur tout site web (à l’adresse http ://www.adressedusite.com/robots.txt)
-et indiquant ce qu’il est possible de faire sur le site. Initialement créé pour les robots de moteur de recherche,
-il est aussi utilisé pour indiquer les limites du webscraping.
+Parmi les éléments incontournables d’une page HTML, on retrouve :
+- `<head>` : Contient les métadonnées et les liens vers les fichiers CSS ou JavaScript.
+- `<title>` : Définit le titre de la page affiché dans l’onglet du navigateur.
+- `<body>` : Contient tout le contenu visible par l’utilisateur.
 
+Les **balises HTML** permettent de structurer le contenu. Par exemple :
+- `<p>` : Définit un paragraphe.
+- `<h1>`, `<h2>`, `<h3>` : Définissent les titres et sous-titres.
+- `<strong>` : Met en valeur du texte en gras.
+- `<em>` : Met en valeur du texte en italique.
 
-## Webscraper des pages dynamiques
-Nous avons précédemment vu comment récupérer les données de pages statiques ( où l’ensemble des données
-est présent dans le code html de la page à étudier). Nous allons maintenant voir comment récupérer les
-données pages dynamiques, contenant notamment du javascript. Nous allons pour cela utiliser la bibliothèque
-Selenium de python.
+Les balises sont généralement utilisées par paires, avec une balise ouvrante `<balise>` et une balise fermante `</balise>`.
 
-Cette bibliothèque permet de simuler une connection depuis un navigateur web, et de manipuler la page
-comme pourrait le faire un utilisateur. En particulier, il est possible pour le programme python de scroller
-pour charger plus de la page, de cliquer sur des boutons, ou de remplir des formulaires, notamment d’authentification.
-Vous aurez besoin d’installer la bibliothèque selenium, mais aussi la bibliothèque webdriver_manager pour
-simplifier les choses.
+## Webscraping en Python
 
+De manière similaire à l’utilisation d’API, le webscraping en Python commence par une requête vers la page web cible.
 
+La principale différence est que, plutôt que de récupérer des données pré-formatées (JSON, XML, CSV), on obtient le code brut de la page HTML, qu’il faut ensuite analyser.
 
-balises par exemple.
+Pour cela, on utilise **BeautifulSoup**, une bibliothèque qui structure les données récupérées et facilite leur extraction. D’autres outils existent, notamment **Selenium**, utile pour les pages web dynamiques.
+
+### Installation de BeautifulSoup
+```bash
+pip install beautifulsoup4 requests
+```
+
+### Exemple de code
+```python
+import requests
+from bs4 import BeautifulSoup
+
+url = "https://example.com"
+response = requests.get(url)
+soup = BeautifulSoup(response.text, "html.parser")
+
+# Extraction des titres h1
+titres = soup.find_all("h1")
+for titre in titres:
+    print(titre.text)
+```
+
+## Bonnes pratiques du Webscraping
+
+Le webscraping peut causer des problèmes aux sites ciblés. Pour une approche responsable, voici quelques règles à suivre :
+
+- **Limiter les requêtes** : Ne chargez que les pages nécessaires.
+- **Insérer des pauses** : Utilisez `time.sleep()` pour éviter de surcharger les serveurs.
+- **Respecter la législation** : Il est illégal de scraper des données personnelles sans consentement.
+- **Respecter le fichier robots.txt** : Ce fichier (ex: `https://www.example.com/robots.txt`) précise ce qui est autorisé ou non sur un site.
+
+## Webscraping des pages dynamiques
+
+Les techniques précédentes fonctionnent bien pour les pages **statiques**, où les données sont directement présentes dans le code HTML.
+
+Mais pour les pages **dynamiques**, qui utilisent JavaScript pour charger du contenu, **Selenium** est un outil plus adapté.
+
+### Installation de Selenium
+```bash
+pip install selenium webdriver-manager
+```
+
+### Exemple avec Selenium
+```python
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+
+# Configuration du navigateur
+service = Service(ChromeDriverManager().install())
+driver = webdriver.Chrome(service=service)
+
+url = "https://example.com"
+driver.get(url)
+
+# Extraction du contenu
+elements = driver.find_elements("tag name", "h1")
+for element in elements:
+    print(element.text)
+
+driver.quit()
+```
+
+Selenium permet de simuler les interactions humaines avec la page : scroller, cliquer sur des boutons, remplir des formulaires, etc.
+
+---
+
+Avec ces outils et bonnes pratiques, vous serez en mesure de scraper efficacement des données tout en respectant les sites web ciblés.
+

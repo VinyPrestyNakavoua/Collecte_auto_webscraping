@@ -59,17 +59,21 @@ recherchebutton = driver.find_element(By.CSS_SELECTOR, ".btn.search")
 
 recherchebutton.click()
 
-sleep(5)
+sleep(30)
 
 # laisser du temps à la page pour bien se charger
 
 # nous voila sur la nouvelle page
 
 # ensuite il faut entrer la distance autour d'aurillac
-# la div : search_block search_radius search_title
-div = driver.find_element(By.CSS_SELECTOR, ".search_block search_radius.search_title")
-dropdown_button = div.find_element(By.CSS_SELECTOR, ".ui-multiselect.ui-widget.ui-state-default.ui-corner-all")
+dropdown_button = WebDriverWait(driver,30).until(EC.element_to_be_clickable((By.ID, "multi_select_12091004"))) 
 dropdown_button.click()
+
+sleep(3)
+
+# Sélectionner "50 Km autour"
+option_50km = driver.find_element(By.XPATH, "//li[contains(text(), '50 Km autour')]")  
+option_50km.click()
 
 
 # un petit sleep

@@ -1,0 +1,6 @@
+Structure de la base de données PostgreSQL
+On a trois tables principales dans la base de données :
+
+Top 10 de chaque course : Contient les classements des coureurs pour chaque course.
+Détails de chaque course : Contient des informations sur les courses comme la date, l'heure, la distance, etc.
+Informations sur les coureurs : Contient des informations détaillées sur chaque coureur.

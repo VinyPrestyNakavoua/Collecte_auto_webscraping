@@ -1,0 +1,9 @@
+Scraping des données
+Collecte des données des courses : Utiliser requests pour récupérer le contenu HTML de chaque page de course. 
+Ensuite, utiliser BeautifulSoup pour parser et extraire les informations.
+
+Collecte des données des résultats : Pour chaque course, scraper les informations du Top 10 en extrayant 
+les noms, les équipes, les temps, etc.
+
+Collecte des informations des coureurs : Scraper les informations détaillées pour chaque coureur, 
+telles que le pays, la date de naissance, le poids, la taille, et le classement.

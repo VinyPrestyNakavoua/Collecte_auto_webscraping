@@ -33,6 +33,9 @@ races_original_name = [
     "Clásica Ciclista San Sebastián"
 ]
 
+# il y a des courses qui ont gc (classification generale) car elles se font sur plusieurs jours (stage)
+# les courses ayant result sont celles qui se font en un seul jour c'est pourquoi il y a result (no stage)
+
 
 races = [
     "tour-de-france/2024/gc",
@@ -128,3 +131,9 @@ for i in range(len(races)):
 
 
 df.to_excel("race.xlsx")
+
+
+# on scraping les données des top 10, je dois recuper le nom du jour et son href
+# <a href="rider/tadej-pogacar">POGAČAR Tadej</a> comme ça je vais me servir du href pour 
+# recuperer les infos des riders de toutes les courses en 2024
+# donc je dois avoir une liste qui va stocker tous les href.

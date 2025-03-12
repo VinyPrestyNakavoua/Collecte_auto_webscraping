@@ -1,0 +1,32 @@
+Liste des graphiques intéressants à faire dans Power BI
+Graphique des Top 10 par course :
+
+Un graphique en barres pour visualiser les performances des coureurs dans chaque course (Top 10).
+Axe X : Noms des coureurs / Axe Y : Temps / Couleur : Position dans le classement.
+Analyse des performances par équipe :
+
+Un graphique en secteurs pour analyser la répartition des victoires par équipe.
+Afficher la somme des victoires par équipe.
+Comparaison des vitesses moyennes :
+
+Un graphique en ligne pour visualiser la vitesse moyenne des vainqueurs de chaque course dans le temps (par exemple, mois après mois).
+Axe X : Date de la course / Axe Y : Vitesse moyenne du gagnant.
+Analyse des distances parcourues :
+
+Un graphique en barres pour analyser la distance des courses par catégorie (par exemple, Grand Tour, One Day Race, etc.).
+Axe X : Nom de la course / Axe Y : Distance parcourue.
+Répartition des nationalités des coureurs :
+
+Un graphique en secteur ou en carte pour voir la répartition des nationalités parmi les coureurs.
+Taille des secteurs : Nombre de coureurs par nationalité.
+Évolution des classements UCI des coureurs :
+
+Un graphique en ligne montrant l'évolution du classement UCI d'un coureur au fil du temps.
+Axe X : Date / Axe Y : Classement UCI du coureur.
+Analyse des profils des courses :
+
+Un graphique en barre ou en carte pour visualiser le dénivelé des courses par région ou par type de course.
+Axe X : Type de course / Axe Y : Dénivelé.
+Graphique de la qualité des listes de départ :
+
+Un graphique en radar pour comparer la qualité des listes de départ des courses en fonction de leur score.

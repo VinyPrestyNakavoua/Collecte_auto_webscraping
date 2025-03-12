@@ -1,5 +1,4 @@
-# cas pour une course
-# construction d'un code scraping pour recuperer les données (info) sur une course
+# scraping des données des riders
 
 from bs4 import BeautifulSoup
 import requests
@@ -83,14 +82,30 @@ for i in range(len(info_race_il)):
 ## scraping top 10 riders
 ## class table : results basic moblist11
 # Récupérer toutes les tables ayant 'results basic' dans la classe
-tab = page.find("table")
+"""tab = page.find("table")
 tab_body = tab.find("tbody")
 lines = tab_body.find("tr")
 data = lines.find_all("td")
 resdata = []
 for datum in data:
     resdata.append(datum.text.strip())
-print(resdata)
+print(resdata)"""
+
+
+tab = page.find("table")  # Trouver la table
+tab_body = tab.find("tbody")  # Trouver le corps du tableau
+lines = tab_body.find_all("tr")  # Récupérer toutes les lignes
+
+resdata = []
+for line in lines:
+    data = line.find_all("td")  # Récupérer toutes les colonnes
+    row_data = [td.get_text(strip=True) for td in data]  # Extraire le texte proprement
+    if row_data:  # Ignorer les lignes vides
+        resdata.append(row_data)
+
+print(resdata[0])
+
+
 """for line in lines[:10]:
     data = line.find_all("td")
     rider_name = data[1].text.strip()
@@ -105,36 +120,7 @@ values = [
     for item in info_race
 ]
 
-"""print(values)
-"""
 
-"""
-# Liste des colonnes
-columns = [
-    "Nom",
-    "Date",
-    "Start time",
-    "Avg. speed winner",
-    "Classification",
-    "Race category",
-    "Distance",
-    "Points scale",
-    "UCI scale",
-    "Parcours type",
-    "ProfileScore",
-    "Vertical meters",
-    "Departure",
-    "Arrival",
-    "Race ranking",
-    "Startlist quality score",
-    "Won how",
-    "Avg. temperature"
-]
 
-# Création du DataFrame vide
-df = pd.DataFrame(columns=columns)
 
-df.loc[len(df)] = values
 
-df.to_excel("race.xlsx")
-"""

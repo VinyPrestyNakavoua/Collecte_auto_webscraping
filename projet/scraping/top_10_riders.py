@@ -1,3 +1,5 @@
+# scraper les données sur les 10 riders le top 10 lors du scraping des données sur les infos races
+
 # https://www.procyclingstats.com/
 # c'est un site qui presente les stats sur le cyclisme
 # Les données qu'on doit récupérer : les top 10 de chaque course, 
@@ -129,8 +131,8 @@ for i in range(len(races)):
     values = []
     info_race = []
 
-path_data = r"C:\Users\nakav\OneDrive - Université Clermont Auvergne\2A\collecte_auto_donnees\S4\projet\data"
-df.to_excel(f"{path_data}/race.xlsx")
+
+df.to_excel("race.xlsx")
 
 
 # on scraping les données des top 10, je dois recuper le nom du jour et son href

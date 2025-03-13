@@ -8,7 +8,7 @@ import openpyxl
 
 # creation du df de stockage
 
-columns = ["Rank", "Previous Rank", "Diff", "Rider", "Team", "Points"]
+columns = ["Rank", "Previous Rank", "Diff", "Rider", "Rider link","Team", "Points"]
 df_riders = pd.DataFrame(columns=columns)
 
 # url de base pour recuperer la liste des joueurs
@@ -38,7 +38,20 @@ for url in urls:
         data = line.find_all("td")
         resdata = []
         for datum in data:
-            resdata.append(datum.text.strip())
+            a_tag = datum.find("a")
+            if a_tag and "href" in a_tag.attrs:
+                link = a_tag["href"]
+                text = a_tag.text.strip() # recupere le nom
+                # pour ne recuperer que le lien du rider on va utiliser startswith
+                if link.startswith("rider/"):
+                    full_link = f"https://www.procyclingstats.com/{link}"
+                    resdata.append(text)
+                    resdata.append(full_link)
+                else:
+                    # dans le cas où c'est pas le href d'un rider, on ajoute juste le texte du lien
+                    resdata.append(text)
+            else:
+                resdata.append(datum.text.strip())
 
 
         # enlever la donnée H2Hgoto, c'est juste un lien, pas une donnée utile
@@ -52,4 +65,5 @@ for url in urls:
         resdata = []
 print(df_riders.head())
 print(df_riders.shape)
-df_riders.to_excel("top_500_riders.xlsx")
+path_data = r"C:\Users\nakav\OneDrive - Université Clermont Auvergne\2A\collecte_auto_donnees\S4\projet\data"
+df_riders.to_excel(f"{path_data}/top_500_riders.xlsx")

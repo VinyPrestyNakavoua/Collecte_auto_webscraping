@@ -96,7 +96,6 @@ df = pd.DataFrame(columns=columns)
 ## pour passer aux infos de la course pour l'année 2024 on ajoute race/nom/race/2024/gc
 for i in range(len(races)):
     url_race = url+f"race/{races[i]}"
-    print(url_race)
     req = requests.get(url_race)
 
     ## formatage avec beautifulsoup on utilise le parser(formateur) : html

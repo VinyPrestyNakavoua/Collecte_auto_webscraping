@@ -90,22 +90,43 @@ for i in range(len(races)):
     # Sélection du tableau
     tab = page.find("table", class_=["results basic moblist10", "results basic moblist11"])
     if tab:
-        tbody = tab.find("tbody")
-        resline = []
-        
-        # Récupérer les 10 premières lignes
-        lines = tbody.find_all("tr")[:10]
-        for line in lines:
-            data = line.find_all("td")
-            resdata = [datum.text.strip() for datum in data]
-            #resdata.append(races_original_name[i])
-            resline.append(resdata)
 
-        # Ajouter au DataFrame
-        df = pd.concat([df, pd.DataFrame(resline, columns=columns)], ignore_index=True)
+        # creation du dataframe pour chaque course
+        # Extraire les noms des colonnes depuis <thead>
+        thead = tab.find("thead")
+        if thead:
+            columns = [th.text.strip() for th in thead.find_all("th")]
+        else:
+            columns = []  # Si pas de thead, éviter l'erreur
+
+        # Créer le DataFrame avec ces colonnes
+        df = pd.DataFrame(columns=columns)
+
+        # extraire les infos dans le tbody
+
+        tbody = tab.find("tbody")
+        if tbody:
+            resline = []
+            
+            # Récupérer les 10 premières lignes
+            lines = tbody.find_all("tr")[:10]
+            for line in lines:
+                data = line.find_all("td")
+                resdata = [datum.text.strip() for datum in data]
+                #resdata.append(races_original_name[i])
+                resline.append(resdata)
+
+            # Ajouter au DataFrame
+            df.loc[len(df)] = resline
+            df.to_excel(f"{path_data}/top_10_riders{races[i]}.xlsx")
+
+
+
+    else:
+        print("Tableau non trouvé !")
+
 
 # Sauvegarde en Excel
-df.to_excel(f"{path_data}/top_10_riders.xlsx")
 
 print("Scraping terminé. Données enregistrées.")
 

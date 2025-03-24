@@ -10,8 +10,8 @@ page = BeautifulSoup(req.text, "html.parser")
 
 info = page.find(class_="rdr-info-cont")
 
-print(info.text.splitlines())
+info_split1 = info.text.split("\n")
 
-
+print(info_split1)
 
 

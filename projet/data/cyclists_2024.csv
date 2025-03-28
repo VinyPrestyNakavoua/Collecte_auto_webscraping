@@ -1,0 +1,706 @@
+Rank;Date_of_birth;Nationality;Weight;Height;PCS_points;One_day_races;GC;Time_trial;Sprint;Climber;Hills
+1;21st September 1998 ;Slovenia;6;1.76;4588;6552;6594;2623;227;8133;3410
+2;25th January 2000 ;Belgium;1;1.71;2889;3084;3994;3845;120;3874;1276
+3;24th August 1998 ;Switzerland;1;1.74;2041;4920;1431;334;75;2124;2224
+4;2nd March 1998 ;Belgium;5;1.76;2355;4862;574;154;5544;185;2358
+5;19th January 1995 ;Netherlands;5;1.84;1612;7341;1124;968;1672;1072;3268
+6;2nd April 2000 ;Eritrea;0;1.84;1666;2732;78;112;1170;238;1852
+7;1st October 2000 ;Italy;7;1.96;1281;581;115;335;1326;62;1062
+8;29th October 1989 ;Slovenia;5;1.77;1513;1877;7854;5542;163;7904;2860
+9;1st July 1999 ;United States;9;1.90;1466;781;1892;494;113;1468;1045
+10;5th August 1998 ;Portugal;3;1.78;1100;431;4204;2410;47;3895;1100
+11;7th August 1992 ;Great Britain;8;1.73;1342;2349;6944;1213;150;7130;1968
+12;10th December 1996 ;Denmark;8;1.75;1702;320;4836;1964;34;4240;1461
+13;16th March 2002 ;Belgium;8;1.82;1406;3759;276;1;1570;119;1472
+14;25th November 1995 ;Australia;7;1.88;1695;741;3377;596;46;3008;874
+15;2nd February 2001 ;Spain;7;1.83;1279;496;2293;423;14;2271;502
+16;16th September 2002 ;Spain;5;1.83;1236;1082;1865;1143;2;1954;765
+17;30th July 1999 ;Great Britain;8;1.70;1053;2494;1141;137;370;1786;1632
+18;7th January 1995 ;Spain;1;1.77;1283;988;4545;666;67;5504;1328
+19;18th December 1995 ;Denmark;0;1.80;1467;3862;1507;1697;2762;368;2814
+20;30th October 1992 ;Belgium;6;1.88;1485;3743;114;3;4695;4;462
+21;13th December 1989 ;Spain;1;1.72;1074;1017;6261;298;118;7040;1183
+22;15th September 1994 ;Belgium;8;1.90;1428;7232;1171;3014;1894;2044;4313
+23;13th October 2002 ;Great Britain;2;1.73;938;168;1255;127;5;770;661
+24;16th January 1993 ;Denmark;8;1.84;831;1477;1453;825;2010;1140;2594
+25;25th July 1996 ;Italy;3;1.93;684;779;981;5698;302;298;1004
+26;25th February 1990 ;Spain;0;1.74;874;1605;4726;1123;450;4848;2140
+27;24th June 2001 ;Italy;2;1.82;868;158;1107;776;2;994;638
+28;29th May 1993 ;Ecuador;2;1.70;1118;1262;3750;551;189;4450;1534
+29;17th October 2001 ;Netherlands;2;1.84;1058;1707;565;72;2776;48;882
+30;10th May 1991 ;Belgium;1;1.82;1007;4064;4296;1406;184;2395;2800
+31;25th November 1999 ;Belgium;3;1.74;1179;1664;498;117;72;1148;1174
+32;15th July 1989 ;Italy;3;1.75;1100;5305;5500;1117;911;4584;4508
+33;19th April 2002 ;United States;3;1.83;634;598;1098;1217;53;478;850
+34;26th September 2000 ;Denmark;5;1.80;1156;1156;2105;1038;126;2045;1283
+35;3rd August 1997 ;Canada;2;1.89;670;126;695;586;46;700;354
+36;26th September 1999 ;Colombia;9;1.74;763;433;1598;190;43;1727;641
+37;2nd April 1998 ;United States;9;1.83;1373;989;2223;2105;54;1898;972
+38;20th December 1994 ;Italy;8;1.76;630;1296;1763;117;2;3434;965
+39;21st January 2003 ;France;4;1.76;835;961;706;269;41;688;930
+40;19th September 1995 ;Spain;3;1.78;883;2159;828;301;414;1511;2324
+41;12th March 2000 ;Norway;2;1.95;678;784;625;810;549;28;270
+42;11th July 1997 ;France;0;1.88;694;1013;2585;506;26;1998;628
+43;21st September 2000 ;Germany;8;1.81;676;81;830;135;4;691;161
+44;23rd December 1998 ;Australia;6;1.76;745;526;246;357;1338;175;1829
+45;10th October 1996 ;France;3;1.73;775;1762;3111;160;17;4034;1200
+46;4th March 1997 ;Ecuador;5;1.74;844;1112;1223;23;262;834;1282
+47;18th December 1998 ;France;7;1.73;950;1695;591;191;409;254;936
+48;16th November 1993 ;Switzerland;3;1.93;964;2699;1659;5701;396;526;1622
+49;5th July 1987 ;Norway;8;1.83;972;11107;2254;301;5374;480;5252
+50;9th November 1990 ;France;5;1.85;908;3396;6406;401;46;8257;1982
+51;30th April 2000 ;New Zealand;3;1.73;908;1385;352;30;295;343;1587
+52;26th September 1998 ;"FranceHeight: 1.76 mPlace of birth: Saint-Paul-en-ParedsPoints per specialty546Onedayraces262GC27TT528Sprint77Climber384HillsinstafbXstravawiki
+
+UCI World72
+PCS Ranking52
+
+
+Visits:▲9163  this week";;1.76;800;546;262;27;528;77;384
+53;28th February 1997 ;Australia;3;1.74;673;609;1537;121;0;1505;426
+54;29th May 1998 ;France;1;1.80;492;1108;694;71;30;1352;931
+55;12th June 2002 ;Czech Republic;5;1.88;695;469;404;564;172;190;319
+56;19th March 2001 ;Belgium;0;1.82;588;797;92;15;776;48;266
+57;17th July 2001 ;Belgium;3;1.76;1071;550;864;103;12;1019;358
+58;17th October 1995 ;France;5;1.79;1014;3656;964;252;272;936;1681
+59;11th June 1992 ;France;2;1.73;909;6627;2738;1430;774;5245;4596
+60;23rd April 1996 ;Russia;8;1.86;1181;1438;3632;932;39;4014;1398
+61;12th July 1996 ;France;1;1.79;780;3122;1207;93;108;1628;1720
+62;26th September 1990 ;Australia;2;1.78;901;7567;867;1678;3312;2189;7412
+63;1st July 1998 ;Belgium;0;1.90;723;1834;86;60;1622;32;729
+64;18th April 1998 ;Spain;4;1.79;668;1057;329;43;46;680;692
+65;15th June 1991 ;Latvia;0;1.81;867;2722;943;353;92;1296;1260
+66;27th November 2003 ;Mexico;4;1.80;835;353;648;181;1;502;334
+67;9th June 1993 ;France;5;1.73;633;2339;3771;10;81;3828;1728
+68;4th December 1999 ;Switzerland;0;1.87;417;528;906;558;6;858;889
+69;9th May 1996 ;Italy;7;1.70;556;339;1378;0;38;1306;212
+70;19th July 1999 ;Netherlands;3;1.82;646;797;407;75;962;160;988
+71;11th July 2003 ;France;2;1.68;834;776;649;165;0;1121;303
+72;3rd September 1996 ;United States;7;1.83;578;2082;1569;891;188;1586;974
+73;26th April 2001 ;France;9;1.76;689;514;1027;792;51;477;634
+74;21st June 1993 ;Netherlands;0;1.77;826;4033;385;15;7870;38;967
+75;20th September 1995 ;Norway;8;1.83;684;622;149;11;274;86;242
+76;2nd August 1989 ;Italy;4;1.79;731;5380;1019;334;3106;1014;4074
+77;11th December 1992 ;France;6;1.91;825;4166;950;901;2068;368;1738
+78;12th November 2002 ;Belgium;4;1.76;647;296;304;56;196;430;630
+79;5th November 1996 ;Venezuela;5;1.76;597;702;379;539;780;263;871
+80;14th April 2004 ;France;0;1.87;438;580;23;16;522;76;370
+81;6th January 1999 ;Spain;0;1.84;326;228;566;54;14;315;264
+82;4th December 1999 ;Netherlands;8;1.92;560;62;1715;1247;28;1370;502
+83;26th November 1990 ;New Zealand;1;1.81;534;515;682;582;534;115;558
+84;23rd August 1999 ;Norway;2;1.76;569;767;1003;55;28;1048;908
+85;16th October 1997 ;Italy;3;1.75;310;823;427;23;9;612;727
+86;25th May 2001 ;France;6;1.83;694;242;475;79;5;256;302
+87;11th November 1999 ;Eritrea;0;1.76;438;739;715;191;260;300;562
+88;21st December 2001 ;New Zealand;9;1.89;489;181;761;503;28;356;592
+89;2nd January 2001 ;Spain;4;1.83;418;63;501;159;0;495;152
+90;4th February 2001 ;Belgium;1;1.77;695;374;371;58;72;109;342
+91;28th January 2004 ;Portugal;1;1.80;378;688;123;49;78;146;282
+92;16th October 1990 ;Ireland;3;1.78;571;2662;536;135;6294;130;1866
+93;25th May 1996 ;France;4;1.90;494;1403;469;303;164;676;1476
+94;13th January 1997 ;Colombia;0;1.75;773;933;4331;596;118;3890;1156
+95;25th March 1991 ;Netherlands;5;1.85;672;754;6009;2687;493;4968;2504
+96;21st April 2001 ;Italy;2;1.81;605;334;424;26;61;364;404
+97;9th June 1996 ;Great Britain;9;1.83;963;437;811;8;41;424;784
+98;25th April 1996 ;Colombia;3;1.72;766;754;2810;1206;13;2410;736
+99;11th March 1994 ;Belgium;2;1.90;564;4892;1912;83;376;2621;2866
+100;14th May 2000 ;Belgium;4;1.71;687;525;1424;716;22;1158;650
+101;21st September 1998 ;Slovenia;6;1.76;4588;6552;6594;2623;227;8133;3410
+102;15th September 1994 ;Belgium;8;1.90;1428;7232;1171;3014;1894;2044;4313
+103;25th January 2000 ;Belgium;1;1.71;2889;3084;3994;3845;120;3874;1276
+104;10th December 1996 ;Denmark;8;1.75;1702;320;4836;1964;34;4240;1461
+105;19th January 1995 ;Netherlands;5;1.84;1612;7341;1124;968;1672;1072;3268
+106;18th December 1995 ;Denmark;0;1.80;1467;3862;1507;1697;2762;368;2814
+107;29th October 1989 ;Slovenia;5;1.77;1513;1877;7854;5542;163;7904;2860
+108;24th August 1998 ;Switzerland;1;1.74;2041;4920;1431;334;75;2124;2224
+109;15th November 1996 ;Netherlands;7;1.72;3087;5529;4616;1805;500;2497;4563
+110;10th November 1995 ;Belgium;6;1.70;3770;6879;2710;1817;3827;502;2596
+111;29th September 1994 ;Poland;9;1.65;1468;6423;4535;1115;956;3034;5086
+112;26th May 1999 ;"FranceHeight: 1.70 mPlace of birth: Lons-le-SaunierPoints per specialty1378Onedayraces1629GC68TT36Sprint1740Climber2022HillsXstravainstawikifbCross profile
+
+UCI World12
+PCS Ranking9
+All time126
+
+
+Visits:▼1350  this week";;1.70;1347;1378;1629;68;36;1740;2022
+113;12th November 1996 ;Italy;0;1.75;631;1341;393;53;554;561;1448
+114;14th January 2001 ;France;2;1.78;458;75;492;1;14;605;174
+115;2nd March 1996 ;Ecuador;1;1.70;517;405;585;230;0;389;214
+116;1st March 2003 ;"Great BritainHeight: 1.85 mPlace of birth: ScunthorpePoints per specialty0Onedayraces842GC145TT6Sprint626Climber321Hillsinstastravawiki
+
+UCI World85
+PCS Ranking104
+
+
+Visits:▲226  this week";;1.85;636;0;842;145;6;626;321
+117;9th January 1994 ;Germany;1;1.83;434;1407;2001;1810;172;1854;1740
+118;20th August 2002 ;Denmark;9;1.81;400;326;130;8;582;88;578
+119;16th November 1995 ;Australia;9;1.84;495;67;853;910;9;952;348
+120;26th June 2004 ;Switzerland;0;1.83;492;525;119;176;31;228;264
+121;11th September 2000 ;Ireland;5;1.75;600;1012;494;436;40;710;405
+122;15th February 2004 ;Great Britain;8;1.94;460;131;161;1240;40;24;26
+123;7th August 1992 ;Great Britain;8;1.72;714;1188;5325;1200;300;5900;1714
+124;29th October 1993 ;Italy;9;1.80;853;2482;951;1000;140;978;2090
+125;5th May 1996 ;Australia;0;1.75;600;460;3262;153;16;2980;764
+126;27th February 1998 ;Austria;6;1.80;557;324;1125;97;2;1888;292
+127;22nd November 1993 ;Spain;8;1.86;500;292;2456;764;30;2903;1218
+128;8th July 2002 ;Italy;1;1.74;523;179;614;92;0;390;153
+129;19th November 1992 ;Belgium;8;1.73;396;1854;268;55;1002;258;789
+130;19th October 1994 ;Slovenia;2;1.86;637;2952;2331;352;571;1610;2810
+131;4th September 1995 ;Belgium;7;1.89;471;258;1407;446;33;1006;566
+132;22nd February 1998 ;Colombia;6;1.64;480;199;1363;61;6;1460;298
+133;16th January 2003 ;Belgium;9;1.88;536;246;288;424;56;31;99
+134;25th May 2000 ;France;4;1.76;584;701;96;32;118;134;396
+135;20th March 1997 ;"NorwayPlace of birth: EgersundPoints per specialty393Onedayraces341GC114TT61Sprint96Climber202HillsinstafbstravaX
+
+UCI World147
+PCS Ranking123
+
+
+Visits:▼18944  this week";;;355;393;341;114;61;96;202
+136;28th December 2001 ;France;4;1.73;433;685;257;4;767;30;421
+137;4th November 1994 ;Colombia;2;1.80;301;1061;289;0;2014;86;979
+138;8th July 1994 ;Germany;1;1.84;502;902;266;1;3020;0;1659
+139;7th June 1999 ;France;9;1.76;466;327;290;5;3;376;248
+140;16th October 2000 ;United States;7;1.81;622;545;591;11;14;469;524
+141;6th March 1994 ;Germany;0;1.92;651;2211;1020;1244;472;152;1423
+142;12th May 2001 ;Netherlands;3;1.84;459;158;230;0;212;4;110
+143;27th February 1996 ;France;4;1.84;526;845;1462;167;8;1408;608
+144;12th October 1986 ;Canada;2;1.75;397;3257;2295;40;34;4492;1785
+145;15th February 1998 ;Italy;7;1.78;634;1946;141;0;1184;6;771
+146;18th March 1999 ;Italy;5;1.85;528;490;1000;67;10;948;432
+147;2nd August 1997 ;France;8;1.84;335;476;565;17;2;582;294
+148;1st June 1999 ;Belgium;0;1.75;526;694;809;45;0;948;593
+149;25th August 1992 ;Netherlands;3;1.84;438;2157;1405;338;1702;192;1352
+150;31st December 2002 ;United States;4;1.80;486;494;155;80;566;24;394
+151;25th May 1986 ;Great Britain;1;1.83;454;1267;6399;5423;306;4203;2692
+152;4th February 1989 ;Spain;0;1.73;457;2002;5408;3014;172;4535;2283
+153;29th June 2002 ;"SwitzerlandHeight: 1.84 mPlace of birth: GippingenPoints per specialty416Onedayraces144GC41TT52Sprint96Climber252HillsXinstastravafbwikiCross profile
+
+UCI World158
+PCS Ranking141
+
+
+Visits:▼401  this week";;1.84;370;416;144;41;52;96;252
+154;13th April 2001 ;France;6;1.79;435;423;260;42;122;219;707
+155;25th October 1997 ;France;2;1.70;473;447;298;10;42;99;352
+156;1st March 1992 ;Belgium;4;1.81;346;2083;2800;575;116;2780;2255
+157;22nd October 1997 ;Germany;8;1.76;338;807;218;32;1212;124;1087
+158;28th December 2000 ;Netherlands;0;1.78;428;51;332;54;26;218;182
+159;31st January 2000 ;Slovakia;0;1.75;179;396;203;160;455;47;300
+160;16th October 1993 ;France;0;1.65;455;1502;562;93;1340;336;1514
+161;21st November 2003 ;Italy;6;1.83;452;152;300;28;0;472;146
+162;29th July 1995 ;Belgium;2;1.74;384;839;658;89;174;574;1219
+163;30th December 2001 ;Uruguay;4;1.75;445;287;140;45;42;56;247
+164;25th May 1999 ;Italy;7;1.80;449;379;989;73;28;504;410
+165;21st June 1998 ;Belgium;4;1.74;639;1797;46;21;2150;2;45
+166;23rd February 2003 ;Great Britain;6;1.81;642;167;434;75;20;236;340
+167;1st October 1987 ;Netherlands;6;1.86;448;1038;4945;916;302;4868;1743
+168;17th January 1994 ;Germany;8;1.80;503;3481;355;68;3474;126;1925
+169;31st May 2003 ;Estonia;5;1.84;369;594;72;72;378;14;320
+170;4th October 1994 ;Norway;4;1.88;345;661;764;24;138;278;738
+171;7th December 2000 ;Netherlands;7;1.80;260;390;149;82;176;111;343
+172;17th April 1992 ;Belgium;8;1.87;549;4635;1314;284;2158;697;3292
+173;30th October 1995 ;Belgium;8;1.84;432;1294;277;56;336;109;564
+174;26th July 1993 ;Netherlands;2;1.84;494;3291;785;435;4600;198;1694
+175;27th July 2001 ;Denmark;9;1.81;391;249;203;8;38;91;266
+176;29th October 2002 ;Czech Republic;3;1.84;447;313;59;22;314;44;382
+177;21st March 1994 ;Netherlands;8;1.71;609;1227;96;4;2533;0;240
+178;19th August 1998 ;Uruguay;7;1.80;264;344;287;203;38;72;218
+179;10th July 2003 ;"NorwayHeight: 1.86 mPlace of birth: SandnesPoints per specialty363Onedayraces309GC114TT166Sprint50Climber214HillsinstaXstravawiki
+
+UCI World157
+PCS Ranking167
+
+
+Visits:▼548  this week";;1.86;383;363;309;114;166;50;214
+180;13th February 1994 ;France;6;1.70;275;3076;175;0;2267;29;907
+181;17th July 2002 ;New Zealand;4;1.85;723;1029;111;65;528;36;526
+182;25th April 1992 ;France;9;1.71;429;3028;1202;289;5636;208;2527
+183;24th September 2001 ;Great Britain;8;1.86;260;389;226;246;216;46;377
+184;12th June 1998 ;Hungary;5;1.85;523;719;1103;287;30;1206;551
+185;17th November 1998 ;France;1;1.68;372;742;508;28;26;572;772
+186;27th August 2002 ;Germany;9;1.81;298;197;354;158;10;336;330
+187;1st September 1996 ;Ireland;7;1.70;376;342;1421;252;24;1010;445
+188;24th June 1996 ;Italy;0;1.90;362;157;259;1853;212;6;136
+189;13th September 1994 ;United States;1;1.82;479;193;2552;314;43;3288;562
+190;26th November 1986 ;Netherlands;4;1.84;401;5218;6008;2074;179;7432;4093
+191;16th August 2003 ;Spain;5;1.93;177;146;306;244;55;194;66
+192;13th June 1999 ;Great Britain;5;1.84;297;573;375;415;159;348;1218
+193;14th August 1996 ;Italy;3;1.80;248;1238;65;28;1644;5;401
+194;27th April 1997 ;Colombia;3;1.80;287;96;697;265;8;624;566
+195;6th January 1992 ;France;2;1.79;419;861;1031;122;296;1034;1492
+196;26th August 2000 ;Italy;4;1.88;355;478;212;278;108;138;334
+197;26th August 1991 ;France;6;1.81;344;6670;1536;483;4564;206;2572
+198;13th September 1998 ;Switzerland;8;1.81;360;343;242;2332;174;18;381
+199;6th August 2005 ;Great Britain;8;;117;254;19;14;208;42;196
+200;16th November 2001 ;Ireland;6;1.72;414;213;248;6;0;303;220
+201;24th April 1998 ;Poland;0;1.78;326;113;340;36;81;107;386
+202;19th January 1996 ;Australia;9;1.80;280;628;200;78;1270;0;156
+203;13th June 1993 ;Germany;0;1.99;306;1665;333;967;1969;17;410
+204;3rd March 1995 ;Spain;9;1.78;452;289;1283;38;2;1036;374
+205;21st October 2001 ;Germany;5;1.89;275;200;215;107;0;410;166
+206;25th May 1997 ;Norway;4;1.84;300;115;742;1773;13;484;299
+207;3rd November 1998 ;Denmark;8;1.91;433;477;437;2295;128;116;322
+208;20th January 1997 ;Poland;8;1.81;326;739;272;123;1378;26;418
+209;28th October 1991 ;Belgium;8;1.73;330;774;940;3503;200;378;776
+210;19th April 1990 ;Belgium;2;1.82;434;3182;526;21;3526;134;799
+211;31st January 1992 ;Belgium;1;1.81;330;1154;1380;148;454;758;989
+212;21st May 1996 ;Belgium;4;1.73;401;1062;60;23;916;58;416
+213;21st September 1998 ;Slovenia;6;1.76;4588;6552;6594;2623;227;8133;3410
+214;15th September 1994 ;Belgium;8;1.90;1428;7232;1171;3014;1894;2044;4313
+215;25th January 2000 ;Belgium;1;1.71;2889;3084;3994;3845;120;3874;1276
+216;10th December 1996 ;Denmark;8;1.75;1702;320;4836;1964;34;4240;1461
+217;19th January 1995 ;Netherlands;5;1.84;1612;7341;1124;968;1672;1072;3268
+218;18th December 1995 ;Denmark;0;1.80;1467;3862;1507;1697;2762;368;2814
+219;29th October 1989 ;Slovenia;5;1.77;1513;1877;7854;5542;163;7904;2860
+220;24th August 1998 ;Switzerland;1;1.74;2041;4920;1431;334;75;2124;2224
+221;15th November 1996 ;Netherlands;7;1.72;3087;5529;4616;1805;500;2497;4563
+222;10th November 1995 ;Belgium;6;1.70;3770;6879;2710;1817;3827;502;2596
+223;29th September 1994 ;Poland;9;1.65;1468;6423;4535;1115;956;3034;5086
+224;26th May 1999 ;"FranceHeight: 1.70 mPlace of birth: Lons-le-SaunierPoints per specialty1378Onedayraces1629GC68TT36Sprint1740Climber2022HillsXstravainstawikifbCross profile
+
+UCI World12
+PCS Ranking9
+All time126
+
+
+Visits:▼1350  this week";;1.70;1347;1378;1629;68;36;1740;2022
+225;7th April 1990 ;New Zealand;8;1.81;339;864;3469;266;86;2866;1044
+226;7th September 1992 ;Kazakhstan;4;1.74;343;2397;3148;1099;972;2672;1610
+227;20th July 1994 ;Italy;0;1.68;368;1701;461;116;571;1179;2003
+228;22nd July 2001 ;"NetherlandsHeight: 1.81 mPlace of birth: SchiedamPoints per specialty457Onedayraces92GC16TT944Sprint1Climber151HillsinstaXstravafbwiki
+
+UCI World248
+PCS Ranking204
+
+
+Visits:▲62  this week";;1.81;369;457;92;16;944;1;151
+229;19th April 2002 ;Italy;8;1.72;375;381;57;0;37;196;412
+230;16th September 1990 ;Belgium;4;1.84;404;4282;1442;49;756;415;2294
+231;28th June 2001 ;Spain;0;1.79;302;369;222;108;149;141;497
+232;13th October 1991 ;Austria;4;1.81;206;1484;2642;458;88;2686;1666
+233;2nd December 1995 ;Italy;9;1.70;377;1672;386;55;211;735;1240
+234;14th November 2003 ;"Great BritainHeight: 1.77 mPlace of birth: TruroPoints per specialty176Onedayraces122GC12TT0Sprint126Climber318Hillsstravainstafbwiki
+
+UCI World215
+PCS Ranking210
+
+
+Visits:▲233  this week";;1.77;334;176;122;12;0;126;318
+235;27th April 1996 ;Colombia;6;1.79;320;232;260;9;86;106;262
+236;16th May 1994 ;France;0;1.78;271;2295;814;184;584;178;1020
+237;16th June 2000 ;United States;9;1.83;317;475;63;50;90;52;201
+238;19th August 1994 ;Colombia;1;1.81;342;1866;211;85;3918;116;1844
+239;14th October 1995 ;"NetherlandsHeight: 1.80 mPoints per specialty151Onedayraces441GC110TT28Sprint221Climber282Hillsinstafbstrava
+
+UCI World242
+PCS Ranking215
+
+
+Visits:▲1308  this week";;1.80;496;151;441;110;28;221;282
+240;23rd December 1993 ;Austria;4;1.84;370;477;2619;1222;265;1440;1412
+241;13th February 1996 ;Belgium;5;1.83;246;264;988;43;34;850;394
+242;9th November 1996 ;Italy;0;1.80;274;253;104;3;1126;42;646
+243;5th March 2002 ;United States;5;1.72;333;33;418;160;8;605;57
+244;1st August 1997 ;Colombia;7;1.66;363;1116;2132;130;64;2310;1277
+245;28th November 1997 ;Spain;2;1.84;263;102;323;140;12;266;220
+246;26th August 2000 ;Great Britain;4;1.88;247;309;92;439;701;73;686
+247;31st October 1996 ;Belgium;8;1.74;335;1292;340;113;1112;80;817
+248;25th June 1996 ;Great Britain;6;1.71;321;82;507;4;22;308;198
+249;7th November 1999 ;Spain;4;1.89;436;444;436;202;66;244;370
+250;10th November 2002 ;France;4;1.76;320;248;320;100;10;172;166
+251;6th May 1989 ;Spain;6;1.82;168;174;2667;1060;42;2460;755
+252;12th September 1989 ;Poland;2;1.73;294;1184;5569;919;107;6278;1919
+253;25th March 1998 ;Italy;0;1.74;258;746;229;7;1648;10;614
+254;20th August 2000 ;Spain;5;1.80;336;251;50;2;36;111;486
+255;17th September 1989 ;France;2;1.78;289;1462;1651;161;56;1675;1030
+256;20th October 1993 ;Italy;8;1.71;246;188;60;81;1539;42;320
+257;12th January 1998 ;Belgium;9;1.91;222;490;483;279;126;54;418
+258;18th January 1995 ;Spain;4;1.77;249;238;584;0;16;512;190
+259;20th December 1997 ;Belgium;4;1.76;274;746;608;76;276;204;470
+260;23rd May 1995 ;Italy;2;1.73;334;1828;792;23;64;1097;1202
+261;23rd January 1998 ;Netherlands;5;1.92;160;746;279;222;769;0;262
+262;8th May 2001 ;United States;3;1.85;269;489;474;38;87;408;516
+263;17th August 2000 ;"FrancePlace of birth: NiortPoints per specialty177Onedayraces187GC55TT96Sprint26Climber95HillsXinstafbCross profile
+
+UCI World247
+PCS Ranking239
+
+
+Visits:▼2534  this week";;;241;177;187;55;96;26;95
+264;21st March 1996 ;Colombia;0;1.70;339;54;397;276;29;158;187
+265;25th December 2000 ;Australia;2;1.81;334;110;685;417;23;430;322
+266;31st August 1995 ;Italy;1;1.80;184;222;430;21;104;430;360
+267;15th December 1999 ;Belgium;2;1.93;355;622;65;2;303;16;242
+268;11th January 1997 ;Norway;5;1.86;90;385;3;36;812;0;82
+269;25th October 1990 ;Italy;7;1.84;200;743;1554;2041;212;1213;733
+270;4th May 2001 ;Great Britain;5;1.87;154;682;84;11;221;51;389
+271;21st February 1992 ;South Africa;8;1.73;276;669;3164;347;4;3264;481
+272;27th March 2000 ;Spain;2;1.77;360;202;225;68;0;432;224
+273;11th October 1997 ;Germany;0;1.81;386;969;583;0;55;636;758
+274;16th January 2003 ;France;0;1.77;411;460;66;104;224;30;121
+275;7th February 1992 ;Denmark;1;1.79;238;2922;1188;453;84;1010;1858
+276;23rd November 1994 ;Australia;7;1.85;250;430;1086;294;68;793;248
+277;23rd March 1999 ;Italy;0;1.76;114;1352;342;113;8;1002;1102
+278;21st January 1991 ;Czech Republic;2;1.81;384;129;1855;30;8;1636;128
+279;30th November 1982 ;Italy;3;1.65;259;2678;6519;819;45;6308;1833
+280;17th June 1997 ;Belgium;5;1.81;259;223;807;77;12;810;231
+281;20th April 2000 ;Spain;4;1.88;151;263;116;5;30;114;346
+282;30th April 1991 ;Belgium;2;1.83;113;2722;676;131;3041;26;996
+283;31st July 1997 ;Spain;0;1.70;321;64;878;17;2;727;101
+284;17th January 1996 ;France;5;1.77;203;526;536;13;13;630;522
+285;21st January 1997 ;Denmark;8;1.85;235;1067;550;133;98;558;901
+286;2nd November 2000 ;Belgium;8;1.84;294;437;41;8;242;76;278
+287;28th May 1999 ;Great Britain;4;1.94;222;455;234;118;154;41;302
+288;15th September 1998 ;Uganda;3;1.80;301;220;19;241;14;13;9
+289;8th February 1995 ;Denmark;5;1.93;272;1605;796;2362;303;498;1426
+290;23rd January 1994 ;Eritrea;8;1.73;375;633;1610;280;84;962;530
+291;9th May 2001 ;Denmark;1;1.78;223;289;224;1;7;166;264
+292;13th August 1992 ;Australia;8;1.88;202;269;1662;653;104;690;452
+293;16th June 1998 ;Ecuador;6;1.64;197;172;648;84;0;454;64
+294;29th April 1999 ;"ItalyPlace of birth: EmpoliPoints per specialty194Onedayraces153GC0TT59Sprint28Climber190HillsXfbfbinstastrava
+
+UCI World264
+PCS Ranking270
+
+
+Visits:▲920  this week";;;212;194;153;0;59;28;190
+295;1st June 1999 ;France;4;1.86;173;525;242;35;360;32;140
+296;4th June 2001 ;Belgium;2;1.92;245;254;5;3;499;0;11
+297;15th September 1993 ;Estonia;6;1.76;233;247;360;141;1665;22;215
+298;12th June 1992 ;Luxembourg;8;1.94;270;617;499;705;327;127;471
+299;20th January 1995 ;Belgium;0;1.81;168;1436;142;140;870;19;484
+300;21st May 1999 ;Norway;2;1.86;216;240;960;534;4;604;254
+301;6th May 1995 ;Spain;3;1.79;235;172;851;161;8;818;196
+302;26th August 2001 ;Great Britain;6;1.69;26;410;641;461;8;360;522
+303;20th June 1998 ;"ItalyPlace of birth: FaenzaPoints per specialty17Onedayraces159GC2TT75Sprint104Climber120Hillsfbinstastravawiki
+
+UCI World367
+PCS Ranking279
+
+
+Visits:▼2126  this week";;;232;17;159;2;75;104;120
+304;3rd April 1999 ;Great Britain;0;1.85;232;141;589;113;4;390;202
+305;23rd February 1990 ;Slovenia;7;1.73;630;1227;863;1756;850;587;834
+306;25th April 1997 ;Belgium;1;1.86;216;44;172;100;44;93;78
+307;2nd October 1999 ;Great Britain;6;1.79;155;519;427;28;426;115;683
+308;29th May 1997 ;"FranceHeight: 1.78 mPlace of birth: Mont-Saint-AignanPoints per specialty782Onedayraces101GC68TT252Sprint75Climber307HillsXstravafbinstaCross profile
+
+UCI World267
+PCS Ranking284
+
+
+Visits:▼7  this week";;1.78;202;782;101;68;252;75;307
+309;1st February 1997 ;France;3;1.74;182;178;452;14;15;354;178
+310;6th April 2000 ;France;8;1.84;188;370;273;0;4;158;238
+311;6th January 2000 ;Belgium;8;1.79;207;229;106;2;43;46;166
+312;23rd April 2000 ;Spain;9;1.85;198;10;276;17;9;86;84
+313;23rd February 2001 ;Spain;7;1.75;203;85;347;239;8;141;265
+314;19th June 2002 ;"GermanyHeight: 1.83 mPlace of birth: MettmannPoints per specialty294Onedayraces47GC8TT545Sprint0Climber198Hillsinstastravawiki
+
+UCI World234
+PCS Ranking290
+
+
+Visits:▲1323  this week";;1.83;203;294;47;8;545;0;198
+315;1st April 1991 ;Austria;2;1.78;224;1275;634;77;261;88;576
+316;10th August 1994 ;Denmark;3;1.78;226;1512;1406;1847;390;422;1390
+317;24th April 1997 ;Canada;4;1.81;196;475;168;115;170;31;200
+318;26th July 1998 ;Switzerland;6;;293;61;499;105;19;310;194
+319;14th April 2001 ;Australia;0;1.72;18;222;114;20;22;59;126
+320;4th February 1990 ;Colombia;8;1.67;187;829;9396;1274;90;7881;1958
+321;11th April 1994 ;France;2;1.90;207;127;649;1552;5;278;208
+322;16th January 1997 ;Spain;5;1.71;197;94;339;0;0;308;71
+323;1st November 2002 ;Italy;2;1.72;246;446;53;2;29;132;297
+324;6th March 1989 ;Portugal;7;1.80;221;610;1199;3786;24;544;882
+325;21st September 1998 ;Slovenia;6;1.76;4588;6552;6594;2623;227;8133;3410
+326;15th September 1994 ;Belgium;8;1.90;1428;7232;1171;3014;1894;2044;4313
+327;25th January 2000 ;Belgium;1;1.71;2889;3084;3994;3845;120;3874;1276
+328;10th December 1996 ;Denmark;8;1.75;1702;320;4836;1964;34;4240;1461
+329;19th January 1995 ;Netherlands;5;1.84;1612;7341;1124;968;1672;1072;3268
+330;18th December 1995 ;Denmark;0;1.80;1467;3862;1507;1697;2762;368;2814
+331;29th October 1989 ;Slovenia;5;1.77;1513;1877;7854;5542;163;7904;2860
+332;24th August 1998 ;Switzerland;1;1.74;2041;4920;1431;334;75;2124;2224
+333;15th November 1996 ;Netherlands;7;1.72;3087;5529;4616;1805;500;2497;4563
+334;10th November 1995 ;Belgium;6;1.70;3770;6879;2710;1817;3827;502;2596
+335;29th September 1994 ;Poland;9;1.65;1468;6423;4535;1115;956;3034;5086
+336;26th May 1999 ;"FranceHeight: 1.70 mPlace of birth: Lons-le-SaunierPoints per specialty1378Onedayraces1629GC68TT36Sprint1740Climber2022HillsXstravainstawikifbCross profile
+
+UCI World12
+PCS Ranking9
+All time126
+
+
+Visits:▼1350  this week";;1.70;1347;1378;1629;68;36;1740;2022
+337;4th September 1996 ;Mongolia;0;1.71;171;515;472;395;216;154;235
+338;2nd August 1997 ;Italy;4;1.70;206;65;164;0;845;20;282
+339;15th October 2002 ;Belgium;4;1.69;266;62;352;62;6;360;260
+340;14th April 2000 ;Russia;5;1.90;240;128;50;112;832;24;109
+341;25th June 1993 ;Belgium;9;1.86;315;2060;216;10;1160;127;828
+342;9th January 1998 ;France;9;1.66;349;801;77;0;948;0;170
+343;2nd June 1990 ;Poland;8;1.76;157;4717;3670;3561;281;3312;3584
+344;6th September 1993 ;Australia;7;1.90;234;682;2985;313;27;2474;1048
+345;27th April 1997 ;Germany;5;1.85;138;187;225;17;12;107;98
+346;8th April 1988 ;Austria;3;1.77;208;225;1405;692;374;651;218
+347;9th August 1987 ;Spain;3;1.78;213;1103;1233;30;250;682;1280
+348;16th February 2000 ;Kazakhstan;0;1.93;249;579;195;345;195;26;70
+349;2nd February 1998 ;"ChinaPoints per specialty399Onedayraces318GC76TT66Sprint117Climber188Hillsinsta
+
+UCI World232
+PCS Ranking313
+
+
+Visits:▲116  this week";;;167;399;318;76;66;117;188
+350;16th October 1999 ;"ItalyPlace of birth: FidenzaPoints per specialty154Onedayraces157GC3TT24Sprint149Climber208Hillsstravainstafb
+
+UCI World333
+PCS Ranking314
+
+
+Visits:▲1243  this week";;;204;154;157;3;24;149;208
+351;28th July 1996 ;Norway;4;1.87;239;1618;281;118;553;82;551
+352;3rd December 2000 ;Ecuador;5;1.60;223;54;308;15;13;288;153
+353;4th April 1994 ;Austria;4;1.80;190;843;796;239;74;932;456
+354;23rd May 1999 ;Eritrea;0;1.75;312;619;577;5;240;471;820
+355;28th October 1991 ;France;1;1.83;306;2674;2988;100;80;3872;1914
+356;11th July 1994 ;Australia;9;1.65;259;2567;333;148;5637;186;2104
+357;21st March 1995 ;Russia;4;1.95;198;140;533;282;2;244;62
+358;20th November 1995 ;Spain;7;1.83;189;1730;313;110;962;284;1459
+359;9th January 1997 ;Estonia;9;1.73;194;100;473;66;424;0;48
+360;8th July 2000 ;"NorwayHeight: 1.84 mPlace of birth: LillehammerPoints per specialty63Onedayraces263GC86TT18Sprint90Climber76Hillsstravainstafb
+
+UCI World362
+PCS Ranking324
+
+
+Visits:▼218  this week";;1.84;192;63;263;86;18;90;76
+361;5th August 1999 ;Belgium;3;1.85;179;457;97;11;360;42;292
+362;4th July 1991 ;Belgium;3;1.84;159;1661;276;1;1201;131;338
+363;8th May 2001 ;Norway;2;1.88;198;305;13;9;404;0;71
+364;12th July 2003 ;"ItalyPlace of birth: ConeglianoPoints per specialty165Onedayraces119GC5TT60Sprint124Climber163Hillsfbinstawiki
+
+UCI World319
+PCS Ranking328
+
+
+Visits:▼1251  this week";;;182;165;119;5;60;124;163
+365;15th March 2000 ;Netherlands;4;1.89;182;282;129;347;265;46;178
+366;17th January 1990 ;Colombia;5;1.64;151;1249;3346;225;44;3780;1410
+367;21st January 1999 ;Belgium;2;1.85;142;732;85;3;602;12;455
+368;1st August 1999 ;Belgium;2;1.78;180;115;320;0;0;207;195
+369;19th January 1998 ;France;3;1.78;164;28;172;26;18;76;88
+370;29th March 2002 ;France;2;1.85;229;198;228;14;14;130;192
+371;13th November 2005 ;Belgium;4;1.66;154;37;113;10;0;133;36
+372;17th March 1992 ;France;0;1.76;185;231;773;43;22;382;272
+373;13th March 1986 ;Germany;4;1.71;208;1572;1563;668;24;1657;1033
+374;5th September 1996 ;Portugal;6;1.83;207;526;156;26;400;44;534
+375;22nd February 1999 ;Netherlands;4;1.98;154;198;126;718;47;16;80
+376;5th April 1999 ;Italy;4;1.70;89;53;169;0;134;54;185
+377;17th April 2000 ;Slovenia;3;1.80;185;200;50;132;266;84;384
+378;10th January 1998 ;Italy;5;1.78;241;622;291;36;210;300;986
+379;27th July 1998 ;Belgium;0;1.81;185;411;291;483;180;156;258
+380;12th March 1999 ;Belgium;1;1.93;48;1298;494;366;503;54;315
+381;2nd March 2000 ;Great Britain;7;1.77;185;115;201;20;136;70;210
+382;30th August 2003 ;Italy;1;1.86;151;93;94;10;97;22;110
+383;24th January 1993 ;Romania;3;1.76;178;171;765;299;274;184;378
+384;17th October 1986 ;Thailand;4;1.79;68;290;183;268;126;32;74
+385;26th January 2001 ;"FranceHeight: 1.71 mPlace of birth: LyonPoints per specialty146Onedayraces28GC1TT2Sprint95Climber210HillsfbinstastravawikiCross profile
+
+UCI World306
+PCS Ranking349
+
+
+Visits:▲729  this week";;1.71;153;146;28;1;2;95;210
+386;18th January 2002 ;Norway;7;1.82;123;65;300;63;12;222;111
+387;30th January 1989 ;Italy;2;1.84;95;4812;564;234;5817;184;2162
+388;1st December 1997 ;Spain;9;1.76;147;350;110;37;157;82;341
+389;27th July 1995 ;Netherlands;3;1.94;181;749;572;306;1230;39;730
+390;10th August 1996 ;Australia;7;1.83;152;32;387;102;48;166;98
+391;12th September 1995 ;France;8;1.79;136;372;817;1139;234;199;920
+392;24th July 2001 ;France;1;1.85;262;545;162;77;244;48;562
+393;4th November 1992 ;Spain;8;1.86;263;462;1471;21;6;1162;344
+394;22nd November 1995 ;Australia;2;1.83;176;173;254;78;99;91;114
+395;14th February 2001 ;Israel;7;1.71;160;119;35;120;449;0;12
+396;8th February 1997 ;Netherlands;2;1.85;160;644;438;196;282;158;443
+397;18th September 1998 ;Great Britain;0;1.80;179;650;1297;1191;308;703;1498
+398;21st August 1989 ;Spain;3;1.65;174;191;1058;28;4;904;176
+399;25th March 1998 ;Denmark;6;1.82;171;113;582;43;16;216;282
+400;23rd March 2003 ;Norway;2;1.84;106;314;20;0;330;4;54
+401;14th January 1998 ;Belgium;1;1.75;189;257;561;67;9;480;301
+402;7th June 1995 ;Monaco;4;1.77;172;127;153;20;1;223;181
+403;19th July 2003 ;Austria;5;1.76;172;70;124;15;0;88;97
+404;18th May 1996 ;France;1;1.64;108;272;707;88;8;402;478
+405;5th April 2000 ;Italy;2;1.72;130;312;93;3;56;111;338
+406;12th June 1999 ;Spain;4;1.83;147;83;134;1;3;103;56
+407;26th October 1991 ;Italy;3;1.85;154;208;377;207;222;44;430
+408;3rd July 1998 ;Portugal;5;1.75;64;107;111;88;418;6;141
+409;15th July 2000 ;"FrancePlace of birth: TroyesPoints per specialty129Onedayraces133GC42TT36Sprint68Climber108HillsfbinstastravaCross profile
+
+UCI World378
+PCS Ranking373
+
+
+Visits:▼222  this week";;;116;129;133;42;36;68;108
+410;28th March 1989 ;Spain;9;1.73;200;767;221;157;2513;66;944
+411;21st September 1994 ;Italy;1;1.83;147;1627;215;133;867;222;1302
+412;11th April 1996 ;Hungary;7;1.86;185;99;332;175;28;168;145
+413;14th August 1998 ;Spain;9;1.70;104;68;260;5;9;66;147
+414;25th October 1992 ;Italy;2;1.82;207;1653;2372;166;11;2690;1312
+415;6th January 1996 ;Spain;5;1.74;182;406;309;3;83;448;547
+416;20th September 1999 ;Belgium;4;1.74;174;554;34;26;128;20;185
+417;21st May 1985 ;Great Britain;0;1.75;190;3067;1502;712;6826;79;2065
+418;16th March 1993 ;Netherlands;1;1.65;184;8;626;49;149;208;254
+419;4th January 1996 ;United States;1;1.80;191;71;504;679;0;187;322
+420;5th November 1987 ;Great Britain;9;1.79;126;1946;975;87;2896;568;1626
+421;21st October 1993 ;France;2;1.74;53;158;464;122;15;204;280
+422;1st June 1999 ;Netherlands;3;1.89;150;176;46;479;418;0;49
+423;18th September 2000 ;Belgium;8;1.88;161;119;105;3;30;9;73
+424;23rd December 1997 ;Spain;6;1.76;157;198;160;8;46;124;208
+425;5th October 1986 ;Portugal;9;1.82;149;4401;6226;1621;97;5354;2698
+426;13th June 1991 ;Argentina;9;1.73;154;569;1522;410;28;632;228
+427;19th January 2003 ;"Czech RepublicPlace of birth: RotterdamPoints per specialty224Onedayraces31GC67TT262Sprint40Climber126HillsstravainstafbwikiCross profile
+
+UCI World430
+PCS Ranking391
+
+
+Visits:▲2266  this week";;;167;224;31;67;262;40;126
+428;10th April 1991 ;Belgium;5;1.80;207;3449;1441;2455;1036;183;1170
+429;31st May 2003 ;Sweden;3;1.87;161;15;72;294;54;18;34
+430;24th February 2005 ;Belgium;4;1.84;143;69;61;3;266;0;25
+431;30th September 2001 ;Portugal;2;1.74;112;49;112;0;0;121;68
+432;7th January 1989 ;Germany;2;1.80;151;6416;1226;297;3240;315;3315
+433;30th March 1995 ;Great Britain;5;1.83;151;262;2619;911;44;2071;606
+434;19th November 1994 ;"ItalyPlace of birth: PalermoPoints per specialty531Onedayraces205GC19TT415Sprint229Climber797HillsXinstafbstravawiki
+
+UCI World414
+PCS Ranking398
+
+
+Visits:▲190  this week";;;147;531;205;19;415;229;797
+435;25th September 1997 ;France;9;1.76;186;717;25;2;1135;0;95
+436;8th October 2000 ;Guatemala;2;1.67;104;87;64;48;68;181;132
+437;21st September 1998 ;Slovenia;6;1.76;4588;6552;6594;2623;227;8133;3410
+438;15th September 1994 ;Belgium;8;1.90;1428;7232;1171;3014;1894;2044;4313
+439;25th January 2000 ;Belgium;1;1.71;2889;3084;3994;3845;120;3874;1276
+440;10th December 1996 ;Denmark;8;1.75;1702;320;4836;1964;34;4240;1461
+441;19th January 1995 ;Netherlands;5;1.84;1612;7341;1124;968;1672;1072;3268
+442;18th December 1995 ;Denmark;0;1.80;1467;3862;1507;1697;2762;368;2814
+443;29th October 1989 ;Slovenia;5;1.77;1513;1877;7854;5542;163;7904;2860
+444;24th August 1998 ;Switzerland;1;1.74;2041;4920;1431;334;75;2124;2224
+445;15th November 1996 ;Netherlands;7;1.72;3087;5529;4616;1805;500;2497;4563
+446;10th November 1995 ;Belgium;6;1.70;3770;6879;2710;1817;3827;502;2596
+447;29th September 1994 ;Poland;9;1.65;1468;6423;4535;1115;956;3034;5086
+448;26th May 1999 ;"FranceHeight: 1.70 mPlace of birth: Lons-le-SaunierPoints per specialty1378Onedayraces1629GC68TT36Sprint1740Climber2022HillsXstravainstawikifbCross profile
+
+UCI World12
+PCS Ranking9
+All time126
+
+
+Visits:▼1350  this week";;1.70;1347;1378;1629;68;36;1740;2022
+449;7th August 1997 ;Venezuela;4;1.75;159;210;0;9;159;8;75
+450;1st September 1994 ;Belgium;8;1.70;115;550;87;43;197;110;348
+451;15th May 2000 ;Australia;8;1.77;178;137;41;0;563;0;91
+452;10th January 2005 ;Norway;9;1.77;147;42;94;4;0;50;58
+453;18th November 1992 ;Germany;9;1.80;173;778;3155;233;80;2878;827
+454;2nd December 1993 ;Netherlands;0;1.78;194;156;964;447;42;614;366
+455;31st July 1997 ;France;1;1.85;118;56;473;839;28;45;130
+456;31st August 1996 ;Netherlands;8;1.81;241;1883;148;38;3676;6;654
+457;18th August 1994 ;Latvia;9;1.89;191;789;717;250;96;427;624
+458;18th April 1997 ;"AlgeriaPlace of birth: El-BiarPoints per specialty376Onedayraces92GC81TT1000Sprint10Climber49Hillsstravainstafbwiki
+
+UCI World286
+PCS Ranking410
+
+
+Visits:▲253  this week";;;87;376;92;81;1000;10;49
+459;16th April 1992 ;"ColombiaPlace of birth: El Carmen de ViboralPoints per specialty45Onedayraces117GC1100TT22Sprint24Climber60Hillsinstastravafbwiki
+
+UCI World382
+PCS Ranking411
+
+
+Visits:▼4  this week";;;141;45;117;1100;22;24;60
+460;9th July 2002 ;Denmark;4;1.82;121;118;26;28;260;8;53
+461;13th August 1989 ;Italy;0;1.81;247;1182;600;6;1023;141;1472
+462;7th July 1996 ;France;9;1.74;163;692;336;89;338;40;393
+463;14th September 1997 ;Italy;7;1.90;158;25;224;12;0;178;72
+464;12th March 1991 ;"South AfricaPlace of birth: JohannesburgPoints per specialty82Onedayraces0GC212TT0Sprint2Climber2Hillsfbstrava
+
+UCI World467
+PCS Ranking416
+
+
+Visits:▲5  this week";;;175;82;0;212;0;2;2
+465;12th October 1987 ;Italy;7;1.79;144;835;4523;1310;70;4230;1576
+466;8th February 1998 ;France;7;1.74;52;684;162;59;9;92;338
+467;23rd July 2001 ;Belgium;9;1.89;137;62;27;11;141;0;68
+468;8th April 2000 ;"SpainPlace of birth: OlaberriaPoints per specialty169Onedayraces29GC0TT40Sprint58Climber161HillsinstastravawikiCross profile
+
+UCI World428
+PCS Ranking420
+
+
+Visits:▲764  this week";;;119;169;29;0;40;58;161
+469;2nd March 2000 ;Italy;0;1.88;133;43;121;81;20;314;143
+470;13th March 2000 ;"FrancePlace of birth: PertuisPoints per specialty33Onedayraces89GC8TT0Sprint62Climber72Hillsinstastravafb
+
+UCI World470
+PCS Ranking422
+
+
+Visits:▲8  this week";;;92;33;89;8;0;62;72
+471;17th November 2001 ;Italy;9;1.70;161;157;117;39;0;98;132
+472;3rd September 1993 ;Switzerland;3;1.83;121;772;178;27;308;18;334
+473;28th December 1994 ;Norway;5;1.81;159;812;1090;55;18;800;906
+474;6th November 2003 ;Germany;0;1.95;158;135;0;44;134;8;38
+475;16th January 1997 ;Spain;2;1.82;171;107;366;8;17;264;231
+476;14th January 1999 ;Russia;3;1.88;126;44;50;8;82;12;116
+477;12th July 2001 ;"Great BritainPlace of birth: DouglasPoints per specialty32Onedayraces98GC239TT32Sprint8Climber56HillsstravaXinstawiki
+
+UCI World384
+PCS Ranking429
+
+
+Visits:▼270  this week";;;123;32;98;239;32;8;56
+478;30th March 1993 ;Italy;1;1.72;166;588;980;258;154;682;873
+479;8th May 1990 ;Italy;4;1.75;142;1938;534;0;335;444;1516
+480;22nd August 1987 ;Italy;7;1.70;243;1663;1742;148;74;2284;1634
+481;20th January 1995 ;France;4;1.87;119;476;241;42;351;4;296
+482;13th September 2001 ;Great Britain;0;1.81;36;58;283;1;14;259;152
+483;15th March 2000 ;Netherlands;4;1.90;145;166;311;259;220;54;237
+484;19th August 2000 ;Germany;8;1.80;122;374;202;1;10;162;318
+485;22nd March 1985 ;Denmark;7;1.82;133;3644;6633;1693;191;5796;2402
+486;9th January 1997 ;Luxembourg;3;1.93;183;582;420;242;53;247;282
+487;1st August 2001 ;Germany;1;1.81;149;118;57;100;211;49;228
+488;18th July 1986 ;Australia;3;1.75;177;2426;1560;139;266;1374;1708
+489;30th October 1995 ;Great Britain;5;1.90;78;718;599;307;213;152;415
+490;1st May 2004 ;France;0;1.80;113;102;50;40;41;52;178
+491;28th June 1990 ;United States;7;1.83;127;305;854;372;24;536;223
+492;5th January 1997 ;Italy;8;1.85;116;314;582;9;9;549;398
+493;29th April 1996 ;Belgium;4;1.78;101;416;349;23;22;242;326
+494;1st June 1998 ;"MongoliaPlace of birth: SukhbaatarPoints per specialty107Onedayraces155GC162TT212Sprint21Climber25Hillsinstafbstrava
+
+UCI World337
+PCS Ranking446
+
+
+Visits:▲143  this week";;;119;107;155;162;212;21;25
+495;19th January 1999 ;"GrenadaHeight: 1.81 mPlace of birth: LondonPoints per specialty183Onedayraces3GC151TT99Sprint2Climber15HillsXsitestravainstafbCross profile
+Previous nationalities
+ Great Britain until 2021
+
+
+UCI World316
+PCS Ranking447
+
+
+Visits:▲695  this week";;1.81;133;183;3;151;99;2;15
+496;6th February 1992 ;Italy;8;1.73;114;866;233;23;62;244;650
+497;24th March 2000 ;Bermuda;7;1.77;132;126;0;454;86;5;10
+498;9th April 2001 ;Italy;5;1.80;103;51;91;18;24;49;80
+499;14th April 2004 ;Norway;8;1.75;118;55;221;5;3;155;38
+500;28th September 1998 ;Italy;6;1.80;140;878;187;6;50;606;606

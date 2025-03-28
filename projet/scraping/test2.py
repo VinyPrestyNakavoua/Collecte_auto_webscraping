@@ -1,36 +1,10 @@
-# scraper les données sur les 10 riders le top 10 de chaque course
-
+import pandas as pd
 from bs4 import BeautifulSoup
 import requests
-import pandas as pd
+import os
 import openpyxl
 
-
-# liste des races
-races_original_name = [
-    "Tour de France",
-    "Giro d'Italia",
-    "La Vuelta ciclista a España",
-    "World Championships",
-    "Amstel Gold Race",
-    "Milano-Sanremo",
-    "Tirreno-Adriatico",
-    "Liege-Bastogne-Liege",
-    "Il Lombardia",
-    "La Flèche Wallonne",
-    "Paris - Nice",
-    "Paris-Roubaix",
-    "Volta Ciclista a Catalunya",
-    "Criterium du Dauphine",
-    "Tour des Flandres",
-    "Gent-Wevelgem in Flanders Fields",
-    "Clásica Ciclista San Sebastián"
-]   
-
-# il y a des courses qui ont gc (classification generale) car elles se font sur plusieurs jours (stage)
-# les courses ayant result sont celles qui se font en un seul jour c'est pourquoi il y a result (no stage)
-
-
+# Liste des courses
 races = [
     "tour-de-france/2024/gc",
     "giro-d-italia/2024/gc",
@@ -51,59 +25,96 @@ races = [
     "San-Sebastián/2024/result"
 ]
 
-
-
-# url de base
-
-url = "https://www.procyclingstats.com/"
-
-
-# Creation du df qui contiendra les données
-# Liste des colonnes
-# Définition des colonnes
-columns = [
-    "Classement", "Dossard", "Écart", "Points UCI", "Bonus", "Type coureur", "Nom", "Âge", 
-    "Équipe", "Points PCS", "Points UCI Total", "Autre", "Temps total", "Vitesse Moyenne"
+races = [
+    "giro-d-italia/2024/gc"
 ]
 
-# Création du DataFrame
-df = pd.DataFrame(columns=columns)
-# collecte de données des courses
+# Nom original des courses
+races_original_name = [
+    "Tour de France",
+    "Giro d'Italia",
+    "La Vuelta ciclista a España",
+    "World Championships",
+    "Amstel Gold Race",
+    "Milano-Sanremo",
+    "Tirreno-Adriatico",
+    "Liege-Bastogne-Liege",
+    "Il Lombardia",
+    "La Flèche Wallonne",
+    "Paris - Nice",
+    "Paris-Roubaix",
+    "Volta Ciclista a Catalunya",
+    "Criterium du Dauphine",
+    "Tour des Flandres",
+    "Gent-Wevelgem in Flanders Fields",
+    "Clásica Ciclista San Sebastián"
+]
 
-## pour passer aux infos de la course pour l'année 2024 on ajoute race/nom/race/2024/gc
-#for i in range(len(races)):
-i=3
-url_race = url+f"race/{races[i]}"
-print(url_race)
-req = requests.get(url_race)
+# URL de base
+url_base = "https://www.procyclingstats.com/race/"
 
-## formatage avec beautifulsoup on utilise le parser(formateur) : html
+# Dossier de sauvegarde
+path_data = r"C:\Users\nakav\OneDrive - Université Clermont Auvergne\2A\collecte_auto_donnees\S4\projet\data"
+os.makedirs(path_data, exist_ok=True)  
 
-page = BeautifulSoup(req.text, "html.parser") 
+# Collecte des données
+for i in range(len(races)):
+    race_url = url_base + races[i]
+    print(f"Scraping : {race_url}")
 
-print(req)
+    
+    # on se propose ces controles http pour mieux suivre l'exécution du code
+    try:
+        req = requests.get(race_url, timeout=10)  
+        req.raise_for_status()  
+    except requests.RequestException as e:
+        print(f"Erreur de requête pour {race_url} : {e}")
+        continue 
 
-tab = page.find("table", class_=["results basic moblist10", "results basic moblist11"])
-tbody = tab.find("tbody")
-resline = []
-lines = tbody.find_all("tr")[:10]
-for line in lines:
-    data = line.find_all("td")
-    resdata = []
-    for datum in data:
-        resdata.append(datum.text.strip())
-    print(resdata)
-    resline.append(resdata)
-    #df.loc[len(df)] = resline
+    
+    # entrer de beautifulsoup
+    page = BeautifulSoup(req.text, "html.parser")
 
+    # Sélection du tableau (avec plusieurs classes possibles)
+    # parce que le tableau des courses ne portent pas le meme nom de classe
+    tab = page.find("table", class_=["results basic moblist10", "results basic moblist11"])
+    
+    if not tab:
+        print(f"Tableau non trouvé pour {races_original_name[i]}")
+        continue
 
-#print(resline)
-for i in range(len(resline)):
-    print(len(resline[i]))
+    # Extraire les noms des colonnes depuis <thead>
+    # comme les courses n'ont pas les memes filtres, pas les memes colonnes 
+    # on va juste creer un df pour chaque course dont les colonnes seront les entetes des tableaux
+    thead = tab.find("thead")
+    if thead:
+        columns = [th.text.strip() for th in thead.find_all("th")]
+    else:
+        print(f"Pas de thead trouvé pour {races_original_name[i]}")
+        continue
 
-#ath_data = r"C:\Users\nakav\OneDrive - Université Clermont Auvergne\2A\collecte_auto_donnees\S4\projet\data"
-#df.to_excel(f"{path_data}/top_10_riders.xlsx")
+    # Créer un DataFrame pour cette course
+    df = pd.DataFrame(columns=columns)
 
+    # Extraire les données de <tbody>
+    tbody = tab.find("tbody")
+    if tbody:
+        rows = tbody.find_all("tr")[:10]  # Top 10 riders
+        for row in rows:
+            data = [td.text.strip() for td in row.find_all("td")]
+            try:
+                df.loc[len(df)] = data 
+            except Exception as e:
+                print(f"erreur avec l'url :  {race_url} -> {e}" )
 
+    # Nettoyage du nom du fichier pour éviter les caractères interdits
+    filename = races[i].replace("/", "_")
+    file_path = os.path.join(path_data, f"top_10_riders_{filename}.csv")
 
+    # Sauvegarde en xlsx pour faire facilement des traitement sur excel pour pas perdre du temps
+    # le nombre de colonnes varie selon les courses du coup en cas d'erreur
+    # on va continuer  à scraper les données des autres courses
+    df.to_excel(file_path.replace(".csv", ".xlsx"), index=False, engine="openpyxl")
+    print(f"Données enregistrées : {file_path}")
 
+print(" Scraping terminé !")

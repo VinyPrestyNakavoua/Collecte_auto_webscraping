@@ -5,4 +5,4 @@ PostgreSQL installé sur votre machine ou accessible via un serveur distant.
 Power BI Desktop installé pour l'analyse des données.
 Dépendances Python
 Dans votre terminal, utilisez la commande suivante pour installer les bibliothèques nécessaires :
-pip install requests beautifulsoup4 psycopg2 pandas
+pip install requests beautifulsoup4 bs4 pandas openpyxl

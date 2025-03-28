@@ -195,5 +195,6 @@ for i in range(0,len(team)):
 		df[9][i]=""
 
 df=df.drop(310)
-df.to_csv("out/coureurs2023.csv", header=False, index=False, sep=";", mode="w")
+path_data = r"C:\Users\nakav\OneDrive - Université Clermont Auvergne\2A\collecte_auto_donnees\S4\projet\data"
+df.to_csv(f"{path_data}/coureurs2024.csv", header=False, index=False, sep=";", mode="w")
 print()

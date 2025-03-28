@@ -1,0 +1,10 @@
+enlever les km/h , km par et °C '' pour tout avoir en nombre
+
+AVG.speed winner en km/h
+Distance en km
+avg.temperature en °C
+
+on a ensuite fait une jointure entre races et top_10: un à plusieurs
+
+les températures pour lesquelles on n'avait pas les valeurs 
+on va les chercher sur internet et remplacer

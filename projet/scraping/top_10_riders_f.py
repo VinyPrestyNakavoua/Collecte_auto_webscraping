@@ -2,6 +2,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 import os
+import openpyxl
 
 # Liste des courses
 races = [
@@ -49,7 +50,7 @@ races_original_name = [
 url_base = "https://www.procyclingstats.com/race/"
 
 # Dossier de sauvegarde
-path_data = r"C:\Users\nakav\OneDrive - Université Clermont Auvergne\2A\collecte_auto_donnees\S4\projet\data"
+path_data = r"C:\Users\nakav\OneDrive - Université Clermont Auvergne\2A\collecte_auto_donnees\S4\projet\data\top_10"
 os.makedirs(path_data, exist_ok=True)  
 
 # Collecte des données
@@ -106,10 +107,10 @@ for i in range(len(races)):
     filename = races[i].replace("/", "_")
     file_path = os.path.join(path_data, f"top_10_riders_{filename}.csv")
 
-    # Sauvegarde en CSV
+    # Sauvegarde en xlsx pour faire facilement des traitement sur excel pour pas perdre du temps
     # le nombre de colonnes varie selon les courses du coup en cas d'erreur
     # on va continuer  à scraper les données des autres courses
-    df.to_csv(file_path, index=False, encoding="utf-8")
+    df.to_excel(file_path.replace(".csv", ".xlsx"), index=False, engine="openpyxl")
     print(f"Données enregistrées : {file_path}")
 
-print("✅ Scraping terminé !")
+print(" Scraping terminé !")

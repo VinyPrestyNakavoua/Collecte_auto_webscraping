@@ -1,66 +1,30 @@
-# cas pour une course
-# construction d'un code scraping pour recuperer les données (info) sur une course
-
-from bs4 import BeautifulSoup
-import requests
 import pandas as pd
-import openpyxl
 
-# creation du df de stockage
+path_data = r"C:\Users\nakav\OneDrive - Université Clermont Auvergne\2A\collecte_auto_donnees\S4\projet\data"
 
-columns = ["Rank", "Previous Rank", "Diff", "Rider", "Rider link","Team", "Points"]
-df_riders = pd.DataFrame(columns=columns)
+# Charger les deux fichiers dans des DataFrames
+df1 = pd.read_csv(f"{path_data}/top_500_riders.csv", sep=';')  # Charger le fichier CSV avec ';' comme séparateur
+df2 = pd.read_csv(f"{path_data}/cyclists_2024.csv", sep=';')   # Charger le deuxième fichier CSV avec ';'
 
-# url de base pour recuperer la liste des joueurs
-# comme on veut les 500 premiers, il y a un filtre sur la page
-# on va juste faire une liste de url et faire une boucle de tout le code de quand on a unr url
+# Vérification des colonnes et types des données
+print("Colonnes du premier fichier (csv) :", df1.columns)
+print("Colonnes du deuxième fichier (CSV) :", df2.columns)
 
-urls = [
-    "https://www.procyclingstats.com/rankings.php", 
-    "https://www.procyclingstats.com/rankings.php?nation=&age=&zage=&page=smallerorequal&team=&offset=100&teamlevel=&filter=Filter",
-    "https://www.procyclingstats.com/rankings.php?nation=&age=&zage=&page=smallerorequal&team=&offset=100&teamlevel=&filter=Filter",
-    "https://www.procyclingstats.com/rankings.php?nation=&age=&zage=&page=smallerorequal&team=&offset=100&teamlevel=&filter=Filter",
-    "https://www.procyclingstats.com/rankings.php?nation=&age=&zage=&page=smallerorequal&team=&offset=100&teamlevel=&filter=Filter"
-    ]
+df1.drop(columns=['Previous Rank', 'Diff', 'Rider link', 'Team'], inplace=True)
 
-for url in urls:
-    req = requests.get(url)
+print()
+print()
 
-    ## formatage avec beautifulsoup on utilise le parser(formateur) : html
+print("Colonnes du premier fichier (csv) :", df1.columns)
+print("Colonnes du deuxième fichier (CSV) :", df2.columns)
 
-    page = BeautifulSoup(req.text, "html.parser") 
+# Effectuer la jointure (cbind) en utilisant la colonne clé 'Rank'
+df_merged = pd.merge(df1, df2, on='Rank', how='inner')  # 'Rank' est la colonne clé pour la jointure
 
-    ## scraping 500 premiers riders
-    tab = page.find("table")
-    tab_body = tab.find("tbody")
-    lines = tab_body.find_all("tr")
-    for line in lines:
-        data = line.find_all("td")
-        resdata = []
-        for datum in data:
-            a_tag = datum.find("a")
-            if a_tag and "href" in a_tag.attrs:
-                link = a_tag["href"]
-                text = a_tag.text.strip() # recupere le nom
-                # pour ne recuperer que le lien du rider on va utiliser startswith
-                if link.startswith("rider/"):
-                    full_link = f"https://www.procyclingstats.com/{link}"
-                    resdata.append(text)
-                    resdata.append(full_link)
-                else:
-                    # dans le cas où c'est pas le href d'un rider, on ajoute juste le texte du lien
-                    resdata.append(text)
-            else:
-                resdata.append(datum.text.strip())
+# Sauvegarder le DataFrame combiné dans un nouveau fichier CSV
+df_merged.to_csv(f"{path_data}/infos_riders.csv", index=False)
 
+# Afficher le résultat (les premières lignes pour vérification)
+print(df_merged.head())
 
-        # enlever la donnée H2Hgoto, c'est juste un lien, pas une donnée utile
-        resdata.pop(3)
-        # ajout des données dans df
-
-        df_riders.loc[len(df_riders)] = resdata
-
-        # on reinitialise resdata, pour gagner en mémoire
-
-        resdata = []
 

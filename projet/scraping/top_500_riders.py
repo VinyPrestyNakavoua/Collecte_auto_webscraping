@@ -66,4 +66,4 @@ for url in urls:
 print(df_riders.head())
 print(df_riders.shape)
 path_data = r"C:\Users\nakav\OneDrive - Université Clermont Auvergne\2A\collecte_auto_donnees\S4\projet\data"
-df_riders.to_excel(f"{path_data}/top_500_riders.xlsx")
+df_riders.to_csv(f"{path_data}/top_500_riders.csv", index=False, sep=";")

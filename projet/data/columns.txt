@@ -1,0 +1,58 @@
+Voici la définition de chaque colonne pour la table des Top 10 Riders :
+
+Rnk (Rank) : Classement du coureur dans la course (1er, 2e, etc.).
+
+BIB (Dossard) : Numéro de dossard attribué au coureur pour la course.
+
+Specialty (Spécialité) : Type de coureur (grimpeur, sprinteur, rouleur, etc.).
+
+Rider (Coureur) : Nom complet du coureur.
+
+Age (Âge) : Âge du coureur au moment de la course.
+
+Team (Équipe) : Nom de l’équipe professionnelle du coureur.
+
+UCI (Points UCI) : Nombre de points attribués au coureur pour son classement selon l’échelle UCI.
+
+Pnt (Points de la course) : Points attribués dans le cadre du classement de la course spécifique.
+
+Time (Temps) : Temps réalisé par le coureur dans la course (format HH:MM:SS ou différence avec le leader).
+
+
+Voici la définition de chaque colonne pour la table des Races :
+
+Nom (Nom de la course) : Nom officiel de la course cycliste.
+
+Date (Date) : Date à laquelle la course a eu lieu.
+
+Start time (Heure de départ) : Heure officielle du départ de la course.
+
+Avg. speed winner (Vitesse moyenne du vainqueur) : Vitesse moyenne du coureur ayant remporté la course (exprimée en km/h).
+
+Classification (Classification) : Type de course (ex. : course en ligne, contre-la-montre, étape d’un Grand Tour, etc.).
+
+Race category (Catégorie de la course) : Catégorie de la course selon l’UCI (ex. : WorldTour, ProSeries, etc.).
+
+Distance (Distance) : Distance totale de la course en kilomètres.
+
+Points scale (Échelle de points) : Système de points attribués selon la classification de la course.
+
+UCI scale (Échelle UCI) : Barème de points UCI attribués en fonction du classement des coureurs.
+
+Parcours type (Type de parcours) : Nature du parcours (ex. : plat, montagne, vallonné, mixte).
+
+ProfileScore (Score de profil) : Indicateur de la difficulté du parcours basé sur le dénivelé et le type de terrain.
+
+Vertical meters (Dénivelé positif) : Nombre total de mètres de dénivelé positif sur la course.
+
+Departure (Ville de départ) : Ville ou lieu de départ de la course.
+
+Arrival (Ville d’arrivée) : Ville ou lieu d’arrivée de la course.
+
+Race ranking (Classement de la course) : Niveau de prestige de la course en fonction de son importance et de son historique.
+
+Startlist quality score (Score de qualité de la startlist) : Indicateur du niveau des participants en fonction de leur classement UCI.
+
+Won how (Mode de victoire) : Description de la manière dont la course a été gagnée (ex. : sprint, échappée, contre-la-montre).
+
+Avg. temperature (Température moyenne) : Température moyenne enregistrée pendant la course (en °C).
